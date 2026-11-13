@@ -12,8 +12,8 @@ def carrusel_portada():
     img = lienzo(brillo_verde=(0.5, 0.62), intensidad=0.6)
     marco(img)
     rotulo(img, (W / 2, 150), "El catálogo del Gabinete", 26)
-    texto_dorado(img, (W / 2, 262), "Cuatro salas,", fuente("gotica", 112))
-    texto_dorado(img, (W / 2, 382), "una pregunta", fuente("gotica", 112))
+    texto_dorado(img, (W / 2, 262), "Cuatro salas,", fuente("titulo", 112))
+    texto_dorado(img, (W / 2, 382), "una pregunta", fuente("titulo", 112))
     separador(img, W / 2, 470)
 
     # cuatro puertas de arco apuntado
@@ -68,7 +68,7 @@ def carrusel_sala(i, sala):
     img = lienzo(brillo_verde=sala["verde"], intensidad=0.62, semilla=10 + i)
     marco(img)
     rotulo(img, (W / 2, 128), sala["num"], 26)
-    texto_dorado(img, (W / 2, 222), sala["nombre"], fuente("gotica", 104))
+    texto_dorado(img, (W / 2, 222), sala["nombre"], fuente("titulo", 104))
     parrafo(img, W / 2, 292, sala["para"], fuente("cursiva", 44), color=CREMA)
     separador(img, W / 2, 380)
     izq, centro, der = sala["portadas"]
@@ -87,7 +87,7 @@ def bierce():
     marco(img)
     rotulo(img, (W / 2, 122), "Colección Cámara Sellada", 24)
     portada(img, R / "bierce.jpg", (W / 2, 610), 860)
-    texto_dorado(img, (W / 2, 1110), "Ambrose Bierce", fuente("gotica", 76))
+    texto_dorado(img, (W / 2, 1110), "Ambrose Bierce", fuente("titulo", 76))
     parrafo(img, W / 2, 1160, "Doce historias de lo inexplicable", fuente("cursiva", 36))
     logo_pie(img, y=1262, ancho=220)
     return img
@@ -98,7 +98,7 @@ def lupin():
     img = lienzo(brillo_verde=(0.5, 0.4), intensidad=1.0, semilla=33)
     marco(img)
     rotulo(img, (W / 2, 122), "Archivo Lupin  ·  Curiosidad", 24)
-    texto_dorado(img, (W / 2, 238), "1905", fuente("gotica", 150))
+    texto_dorado(img, (W / 2, 238), "1905", fuente("titulo", 150))
 
     # camafeo oval con la ilustración en sepia de grabado
     ow, oh = 470, 600
@@ -149,7 +149,7 @@ def lecturas():
     img = lienzo(brillo_verde=(0.3, 0.5), intensidad=0.45, semilla=44)
     marco(img)
     rotulo(img, (W / 2, 122), "Para este fin de semana", 24)
-    texto_dorado(img, (W / 2, 212), "Tres lecturas", fuente("gotica", 100))
+    texto_dorado(img, (W / 2, 212), "Tres lecturas", fuente("titulo", 100))
     separador(img, W / 2, 290)
 
     bloques = [
@@ -170,10 +170,10 @@ def lecturas():
         else:
             icono_audio(img, cx_img, cy_img)
         rotulo(img, (360, y + 58), f"{['I', 'II', 'III'][i]}  ·  {etq}", 20, anchor="lm", espaciado=4)
-        texto_dorado(img, (356, y + 126), nombre, fuente("gotica", 70), anchor="lm")
+        texto_dorado(img, (356, y + 126), nombre, fuente("titulo", 70), anchor="lm")
         ImageDraw.Draw(img).text((360, y + 192), desc, font=fuente("cursiva", 36), fill=CREMA, anchor="lm")
 
-    texto_dorado(img, (W / 2, 1172), "¿Cuál te llevas?", fuente("gotica", 66))
+    texto_dorado(img, (W / 2, 1172), "¿Cuál te llevas?", fuente("titulo", 66))
     logo_pie(img, y=1268, ancho=200)
     return img
 
@@ -187,7 +187,7 @@ def dracula():
     img.alpha_composite(fondo)
     marco(img)
     rotulo(img, (W / 2, 120), "Archivos Prohibidos  ·  Episodio V", 24)
-    texto_dorado(img, (W / 2, 210), "El expediente Drácula", fuente("gotica", 86))
+    texto_dorado(img, (W / 2, 210), "El expediente Drácula", fuente("titulo", 86))
     separador(img, W / 2, 282)
     portada(img, R / "dracula.jpg", (W / 2 - 70, 712), 760)
     m = monograma(220)

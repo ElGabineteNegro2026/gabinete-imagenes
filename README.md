@@ -8,7 +8,7 @@ Imágenes 1080×1350 (4:5) para @elgabinetenegro, con enlaces directos (raw) par
 - `scripts/semana_AAAA_MM_DD.py` — composición de las publicaciones de cada semana.
 - `marca/` — logotipo y monograma dorado (transparentes).
 - `recursos/` — portadas e ilustraciones de elgabinetenegro.com.
-- `fuentes/` — UnifrakturMaguntia, Cinzel y Cormorant Garamond (Google Fonts, licencia SIL OFL).
+- `fuentes/` — Playfair Display, Cinzel y Cormorant Garamond (Google Fonts, licencia SIL OFL).
 
 ## Paleta
 | Negro | Dorado | Verde botella | Crema |

@@ -1,7 +1,7 @@
 """Estilo visual de El Gabinete Negro para Instagram (1080x1350, 4:5).
 
 Paleta: negro #0B0B0B, dorado #C9A24B, verde botella #0F3D2E, crema #EFE6D2.
-Tipografías (libres, OFL): UnifrakturMaguntia (títulos góticos),
+Tipografías (libres, OFL): Playfair Display (títulos),
 Cinzel (rótulos en versalitas) y Cormorant Garamond (texto).
 """
 from pathlib import Path
@@ -27,13 +27,15 @@ SEPIA = (112, 84, 52)
 
 def fuente(nombre, tam):
     archivos = {
-        "gotica": "unifrakturmaguntia-latin-400-normal.ttf",
+        "titulo": "playfair-display-latin-600-normal.ttf",
         "rotulo": "cinzel-latin-500-normal.ttf",
         "rotulo_bold": "cinzel-latin-700-normal.ttf",
         "texto": "cormorant-garamond-latin-500-normal.ttf",
         "texto_bold": "cormorant-garamond-latin-700-normal.ttf",
         "cursiva": "cormorant-garamond-latin-500-italic.ttf",
     }
+    if nombre == "titulo":
+        tam = int(tam * 0.86)  # Playfair es más ancha que la gótica original
     return ImageFont.truetype(str(FUENTES / archivos[nombre]), tam)
 
 

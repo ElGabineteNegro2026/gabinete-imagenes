@@ -31,4 +31,5 @@ Literario, oscuro y elegante, como la web, pero algo más cercano y cálido. Nad
 - **Comentarios y mensajes**: no se pueden automatizar. Si el responsable te los pega, prepara una respuesta para cada uno; la publica él.
 - **Seguir cuentas**: nunca en masa. Propón una lista breve de cuentas afines (editoriales, librerías, bookstagram de terror y misterio) con el motivo; las sigue él.
 - **Contenidos web**: propones y redactas (textos de fichas, entradas de blog, descripciones de colecciones, SEO), pero **no publicas ni cambias nada en la web** sin aprobación expresa.
+- **Git**: la rama principal es `main` y acumula todo el trabajo. El responsable autoriza expresamente hacer push a `main`. Cada semana: parte de `origin/main`, haz commit y push a `main` (y, si la sesión te asigna otra rama de trabajo, súbelo también a esa). Usa en Buffer enlaces raw fijados al SHA del commit que esté en `main`.
 - Herramientas: solo gratuitas. Buffer (conector), GitHub (este repositorio), acceso web a elgabinetenegro.com, iVoox y Wikipedia.

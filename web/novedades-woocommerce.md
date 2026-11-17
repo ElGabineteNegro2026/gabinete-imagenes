@@ -15,6 +15,6 @@ Hecho en cada ficha: producto externo, botón «Tapa blanda | precio», descripc
 2. Añadir al final de la descripción corta el botón de eBook con `https://www.amazon.es/dp/<ASIN ebook>` (código en la ficha del Editor Jefe).
 3. Cambiar el estado a `publish` y comprobar la ficha en la web.
 
-## Pendiente, no hecho (afecta a fichas ya publicadas; requiere aprobación)
-- *La Aguja Hueca* (1040): botón de audiolibro con `href=""` (enlace roto) y botón de compra con `link.amazon/...`.
-- *Drácula* (1283): «laminas» → «láminas».
+## Correcciones en fichas publicadas (17-11-2026, aprobadas por el responsable)
+- *La Aguja Hueca* (1040): botón de compra → `https://www.amazon.es/dp/B0HNPL2Q14`; botón de audiolibro → `https://kdp.amazon.com/amazon-dp-action/US/dualbookshelf.tandemmarketplacelink/B0HN1BXKJ5`. El botón de eBook sigue con `link.amazon/B06RpZzs1` (pendiente de su enlace definitivo, si se quiere).
+- *Drácula* (1283): «laminas» → «láminas» en la descripción corta y en la larga.

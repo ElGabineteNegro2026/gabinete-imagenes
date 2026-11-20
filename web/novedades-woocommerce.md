@@ -4,7 +4,7 @@ Alta hecha el 17-11-2026 por el Responsable Social Media y contenidos web, por e
 
 | ID | Producto | Colección | Precio | Estado | Falta |
 |---|---|---|---|---|---|
-| 1300 | Makt myrkranna: Los poderes de la oscuridad | Límite Abisal XIX | 14,49 € | **borrador** | ASIN tapa blanda y ebook |
+| 1300 | Makt myrkranna: Los poderes de la oscuridad | Límite Abisal XIX | 14,49 € | **publicada** (20-11-2026, tapa blanda B0HS1NSY55) | — |
 | 1303 | 813 (El Archivo Lupin nº 4) | Archivo Lupin, Dossier IV | 13,95 € | **borrador** | ASIN tapa blanda y ebook |
 | 1307 | El peligro azul | Límite Abisal XX | 14,49 € | **borrador** | ASIN tapa blanda y ebook |
 
@@ -18,3 +18,7 @@ Hecho en cada ficha: producto externo, botón «Tapa blanda | precio», descripc
 ## Correcciones en fichas publicadas (17-11-2026, aprobadas por el responsable)
 - *La Aguja Hueca* (1040): botón de compra → `https://www.amazon.es/dp/B0HNPL2Q14`; botón de audiolibro → `https://kdp.amazon.com/amazon-dp-action/US/dualbookshelf.tandemmarketplacelink/B0HN1BXKJ5`. El botón de eBook sigue con `link.amazon/B06RpZzs1` (pendiente de su enlace definitivo, si se quiere).
 - *Drácula* (1283): «laminas» → «láminas» en la descripción corta y en la larga.
+
+## Ficha de El Horla (432), 20-11-2026, aprobada por el responsable
+- Añadido a la descripción larga un párrafo sobre las dos versiones del relato (Gil Blas, 1886; versión definitiva en forma de diario, 1887).
+- Nueva meta descripción de Yoast. Copia del estado anterior en `web/copias/432_el-horla_antes_2026-11-20.json`.

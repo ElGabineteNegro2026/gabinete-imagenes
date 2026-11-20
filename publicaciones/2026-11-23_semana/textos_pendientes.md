@@ -1,4 +1,6 @@
-# Semana del 23 al 29 de noviembre de 2026 · textos pendientes de aprobación
+# Semana del 23 al 29 de noviembre de 2026 · textos de lanzamiento
+
+**Aprobadas por el responsable el 20-11-2026 y programadas en Buffer ese mismo día.**
 
 Imágenes en `publicaciones/2026-11-23_semana/`, enlace raw fijado al commit `5a0019f` de `main`.
 Programadas ya (HABITUALES): martes 24 *El Horla* y sábado 28 *Los cuatro maestros de Lovecraft*.

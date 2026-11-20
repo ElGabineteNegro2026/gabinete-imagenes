@@ -36,7 +36,7 @@ Literario, oscuro y elegante, como la web, pero algo más cercano y cálido. Nad
 - Herramientas: solo gratuitas. Buffer (conector), GitHub (este repositorio), acceso web a elgabinetenegro.com, iVoox y Wikipedia.
 
 ## Próximos lanzamientos (actualizar cuando cambien)
-- **Semana del 23 al 29 de noviembre de 2026:** publicaciones de lanzamiento de **Makt myrkranna: Los poderes de la oscuridad** (Límite Abisal XIX). El responsable ya ha decidido que van esa semana; prepáralas y enséñaselas antes de programarlas, como todo lanzamiento.
-- **813** (El Archivo Lupin nº 4) y **El peligro azul** (Límite Abisal XX) salen la semana del 23 al 29; sus publicaciones, cuando el responsable diga.
-- Las fichas de la tienda están en borrador (ids 1300, 1303 y 1307; ver `web/novedades-woocommerce.md`), así que no aparecen en la API pública. Portadas en `recursos/novedades/`. Material para redes del Editor Jefe: repositorio `ElGabineteNegro2026/gabinete-editorial`, `novedades/para-redes.md` (solo lectura, `git clone --depth 1`).
+- **Makt myrkranna: Los poderes de la oscuridad** (Límite Abisal XIX): a la venta y publicada en la web desde el 20-11-2026 (ficha 1300). Lanzamiento en Instagram programado los días 23 y 26 de noviembre.
+- **813** (El Archivo Lupin nº 4) y **El peligro azul** (Límite Abisal XX) salen la semana del 23 al 29. Ya hay programada una publicación de intriga de cada uno (25 y 27 de noviembre, aprobadas); las de lanzamiento, cuando el responsable diga.
+- Las fichas de 813 y El peligro azul siguen en borrador (ids 1303 y 1307; ver `web/novedades-woocommerce.md`), así que no aparecen en la API pública. Portadas en `recursos/novedades/`. Material para redes del Editor Jefe: repositorio `ElGabineteNegro2026/gabinete-editorial`, `novedades/para-redes.md` (solo lectura, `git clone --depth 1`).
 - Cuidado con los textos: *Makt myrkranna* no es «una obra inédita de Stoker», sino una adaptación islandesa con material nuevo. De *El peligro azul* no hay que revelar qué son los *sarvants*, y hay que decir «primera traducción al español, hasta donde sabemos».
